@@ -10,6 +10,7 @@ public class SimpleCalculator {
 
 	
 	public static void main(String args[]) {
+		@SuppressWarnings("resource")
 		Scanner keyboardInput = new Scanner(System.in);
 		System.out.print("Enter first number: ");
 		double num1 = keyboardInput.nextDouble();
